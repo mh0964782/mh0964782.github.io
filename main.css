@@ -1,0 +1,22 @@
+@charset "uft-8";
+
+body {
+    background-color: rgb(165, 155, 155);
+}
+
+nav {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    border: 1.5px solid rgb(100, 100, 100);
+}
+nav a {
+    flex: 33.33%;
+    line-height: 1.5;
+    color: white;
+}
+
+nav a:hover {
+    color: gray;
+    background-color: white;
+}
