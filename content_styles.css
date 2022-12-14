@@ -13,7 +13,35 @@ section {
     margin: auto;
     border: 1px solid black;
     text-align: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section img {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 6px 12px 3px 6px;
+}
+
+section .left {
+    float: left;
+}
+
+section p {
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.8em;
+    text-align: left;
+}
+
+section .embed {
+    border: 2.5px solid gray;
+    border-radius: 4px;
+}
+
+section .caption {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 1.2em;
+    text-align: center;
 }
