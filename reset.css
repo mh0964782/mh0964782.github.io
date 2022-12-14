@@ -12,8 +12,8 @@ div, dl, dt, dd, em, figcaption, figure, footer,
 h1, h2, h3, h4, h5, h6, header, html, img, 
 li, main, nav, nav a, ol, p, section, span, ul,
 table, tr, td, th, col, colgroup {
-   margin: 0;
-   padding: 0;
+   margin: 0px;
+   padding: 0px;
    border: 0;
    font-size: 100%;
    background: transparent;

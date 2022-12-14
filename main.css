@@ -1,50 +1,83 @@
 @charset "uft-8";
 
+/* Main Styles */
+
 body {
-    background-color: rgb(165, 155, 155);
+    background-color: rgb(155, 162, 191);
     font-family: 'Fauna One', serif;
 }
 
+/* Header Styles */
+
 header {
-    background-image: linear-gradient(30deg, #7cb0e8, #2b76c6);
+    background-image: linear-gradient(to top, #b9c6df, #eff2ff);
     border-bottom: 2px inset gray;
 }
 
 header h1 {
     color: #667389;
-    font-family: Cinzel, serif;
+    font-family: "Sofia", sans-serif;
     text-align: center;
-    font-size: 32px;
-    padding: 20px;
+    font-size: 36px;
+    padding: 12px;
 }
 
 header p {
     color: #667389;
     text-align: center;
     font-size: 18px;
-    padding: 15px;
+    padding: 6px;
     font-style: italic;
 }
+
+/* Navigation Bar Styles */
 
 nav {
     display: flex;
     width: 60%;
     margin: auto;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
 }
 
 nav a {
     flex: 33.33%;
-    color: white;
+    color: #667389;
     text-align: center;
     font-size: 22px;
-    text-decoration: underline solid gray auto;
-    padding: 1px;
-    margin: 22px;
-    transition: color 0.5s, text-decoration 1.5s, border-bottom 1.5s;
+    padding-bottom: 6px;
+    margin: 16px;
+    transition: color 0.5s;
 }
 
 nav a:hover {
-    color: rgb(207, 207, 207);
-    text-decoration: none;
+    color: #181818;
+    padding-bottom: 5px;
     border-bottom: 1px solid gray;
 }
+
+/* Footer Styles */
+
+footer {
+    background-image: linear-gradient(to bottom, #b9c6df, #eff2ff);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1.5px groove black;
+ }
+ 
+ footer p {
+    color:#616c80;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+
+ #logo {
+     float: right;
+     opacity: 0.55;
+ }
