@@ -4,14 +4,11 @@
 
 #main-column {
     width: 100%;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 section {
     width: 60%;
     margin: auto;
-    border: 1px solid black;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -20,11 +17,22 @@ section {
 section img {
     border: 1px solid gray;
     border-radius: 5px;
-    margin: 6px 12px 3px 6px;
 }
 
 section .left {
     float: left;
+    margin: 6px 12px 3px 6px;
+}
+
+section .right {
+    float: right;
+    margin: 6px 6px 3px 12px;
+}
+
+section h3 {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.8em;
 }
 
 section p {
