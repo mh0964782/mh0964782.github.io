@@ -61,3 +61,45 @@ section .caption {
 #space {
     height: 120px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px) {
+    section .embed {
+        width: 58vw;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    section .left {
+        float: none;
+    }
+    section .right {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section img {
+        max-width: 56vw;
+    }
+    section h3 {
+        font-size: 5vw;
+        }
+    section p {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    section img {
+        width: 168px;
+    }
+    section h3 {
+        font-size: 14px;
+    }
+    section p {
+        font-size: 12.6px;
+    }
+}
