@@ -24,11 +24,6 @@ section .left {
     margin: 6px 12px 3px 6px;
 }
 
-section .right {
-    float: right;
-    margin: 6px 6px 3px 12px;
-}
-
 section h3 {
     color: #4c6080;
     padding: 10px;
@@ -73,9 +68,6 @@ section .caption {
 
 @media screen and (max-width: 620px) {
     section .left {
-        float: none;
-    }
-    section .right {
         float: none;
     }
 }
